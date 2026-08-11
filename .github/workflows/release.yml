@@ -1,0 +1,33 @@
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - name: Install native XML validator
+        run: sudo apt-get update && sudo apt-get install -y libxml2-utils
+      - run: npm ci
+      - run: npm run check
+      - name: Assemble offline bundle
+        run: |
+          cp LICENSE NOTICE THIRD_PARTY_LICENSES.md README.md README.zh-CN.md dist/
+          mv dist opencal-bridge
+          zip -r "opencal-bridge-${GITHUB_REF_NAME}-offline.zip" opencal-bridge
+          sha256sum "opencal-bridge-${GITHUB_REF_NAME}-offline.zip" > SHA256SUMS.txt
+      - name: Create GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "$GITHUB_REF_NAME" "opencal-bridge-${GITHUB_REF_NAME}-offline.zip" SHA256SUMS.txt --verify-tag --generate-notes --title "OpenCal Bridge ${GITHUB_REF_NAME}"

@@ -1,0 +1,4 @@
+certificate_id,country_code,language,calibration_date,laboratory_name,customer_name,responsible_person,item_name,item_serial,method,result_name,reference_value,indication,error,unit,expanded_uncertainty,coverage_factor
+SYNTHETIC-TEMP-2026-001,CN,zh,2026-08-02,示例校准实验室,示例客户,测试人员,铂电阻温度计,SYNTHETIC-PRT-001,比较法,温度点 1,0,0.03,0.03,Cel,0.08,2
+SYNTHETIC-TEMP-2026-001,CN,zh,2026-08-02,示例校准实验室,示例客户,测试人员,铂电阻温度计,SYNTHETIC-PRT-001,比较法,温度点 2,50,50.04,0.04,Cel,0.09,2
+SYNTHETIC-TEMP-2026-001,CN,zh,2026-08-02,示例校准实验室,示例客户,测试人员,铂电阻温度计,SYNTHETIC-PRT-001,比较法,温度点 3,100,99.97,-0.03,Cel,0.11,2

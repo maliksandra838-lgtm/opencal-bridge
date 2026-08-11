@@ -1,0 +1,4 @@
+certificate_id,country_code,language,calibration_date,laboratory_name,customer_name,responsible_person,item_name,item_serial,method,result_name,reference_value,indication,error,unit,expanded_uncertainty,coverage_factor
+SYNTHETIC-MASS-2026-001,US,en,2026-08-01,Example Calibration Lab,Example Customer,Avery Chen,Electronic balance,SYNTHETIC-EB-001,Direct comparison,Mass point 1,0.1,0.100002,0.000002,kg,0.000004,2
+SYNTHETIC-MASS-2026-001,US,en,2026-08-01,Example Calibration Lab,Example Customer,Avery Chen,Electronic balance,SYNTHETIC-EB-001,Direct comparison,Mass point 2,0.5,0.500003,0.000003,kg,0.000006,2
+SYNTHETIC-MASS-2026-001,US,en,2026-08-01,Example Calibration Lab,Example Customer,Avery Chen,Electronic balance,SYNTHETIC-EB-001,Direct comparison,Mass point 3,1,0.999995,-0.000005,kg,0.000008,2

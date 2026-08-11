@@ -1,0 +1,37 @@
+{
+  "generated": "2026-08-11",
+  "schemas": [
+    {
+      "name": "PTB DCC",
+      "version": "3.3.0",
+      "file": "ptb/dcc/3.3.0/dcc.xsd",
+      "source": "https://gitlab.com/ptb/dcc/xsd-dcc/-/raw/v3.3.0/dcc.xsd",
+      "license": "LGPL-3.0-only",
+      "sha256": "b8872150500d2d8bdd66817d27e7ee16b4df7037e803cf316483b98174a7f73f"
+    },
+    {
+      "name": "PTB D-SI",
+      "version": "2.2.1",
+      "file": "ptb/d-si/2.2.1/SI_Format.xsd",
+      "source": "https://www.ptb.de/si/v2.2.1/SI_Format.xsd",
+      "license": "LGPL-3.0-only",
+      "sha256": "a6483bc3f22b7a5193912d4699ec2462de4ca3f069762300e4f749e54653a2e8"
+    },
+    {
+      "name": "QUDT quantitykind dependency",
+      "version": "D-SI 2.2.1 dependency",
+      "file": "ptb/d-si/2.2.1/qudt/quantitykind.xsd",
+      "source": "https://www.ptb.de/si/v2.2.1/qudt/quantitykind.xsd",
+      "license": "LGPL-3.0-only",
+      "sha256": "9dceb6bfebc6672349dcadcca17214ce0c1acb154bfe6dc807121eb3f9024ac3"
+    },
+    {
+      "name": "XMLDSig schema",
+      "version": "PTB no-DTD copy",
+      "file": "ptb/xmldsig/xmldsig-core-schema.xsd",
+      "source": "https://www.ptb.de/dcc/d-sig/xmldsig-core-schema.xsd",
+      "license": "W3C-20150513",
+      "sha256": "b44ee18f3cbf818c09b07f9e1fecd2009d1a580b9fc62776dc5ad6ce7eccedcf"
+    }
+  ]
+}

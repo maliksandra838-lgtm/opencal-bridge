@@ -1,0 +1,22 @@
+name: Feature request
+description: Propose a measurable workflow improvement.
+title: "[Feature]: "
+labels: [enhancement, needs-triage]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Metrology workflow problem
+      description: Describe the user and the blocked task before proposing an implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome and acceptance evidence
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Public sources or related tools

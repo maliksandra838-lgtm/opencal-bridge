@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema version="2.2.1" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://qudt.org/vocab/"
+    xmlns:qudt="http://qudt.org/vocab/"
+    elementFormDefault="qualified">
+    
+    <xs:annotation>
+        <xs:documentation xml:lang="en">
+            D-SI - Digital System of Units
+            Copyright (c) 2018 - 2024 Physikalisch-Technische Bundesanstalt (PTB), all rights reserved. 
+            
+            This XML Scheme Definition (XSD) is free software: you can redistribute it and/or modify
+            it under the terms of the GNU Lesser General Public License as published by
+            the Free Software Foundation, version 3 of the License.
+            
+            This XSD is distributed in the hope that it will be useful,
+            but WITHOUT ANY WARRANTY; without even the implied warranty of
+            MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+            GNU Lesser General Public License for more details.
+            
+            You should have received a copy of the GNU Lesser General Public License
+            along with this XSD.  If not, see http://www.gnu.org/licenses.
+            
+            CONTACT:            daniel.hutzschenreuter@ptb.de
+            DEVELOPMENT:        https://gitlab1.ptb.de/d-ptb/d-si/xsd-d-si
+            D-SI XSD VERSION:   2.2.1
+            RELEASE DATA:       2024-06-21      
+            DOI:                10.5281/zenodo.3366901      
+        </xs:documentation>
+        <xs:documentation xml:lang="en">
+            ACKNOWLEDGEMENT:
+            This schema was developped to link QUDT type entities to the D-SI XML implementation.
+            Please, visit qudt.org for information about the QUDT web ontology.
+            To access the QUDT entries for quantity kinds from the XML, you can use the following PIDs:
+            https://qudt.org/vocab/quantitykind/Length  (web page)
+            https://qudt.org/vocab/quantitykind/Length.ttl (machine-readable TURTLE data)
+        </xs:documentation>
+    </xs:annotation>
+
+  <xs:simpleType name="quantitykind">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+
+</xs:schema>

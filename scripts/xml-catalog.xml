@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <uri name="https://ptb.de/si/v2.2.1/SI_Format.xsd" uri="../public/schemas/ptb/d-si/2.2.1/SI_Format.xsd"/>
+  <uri name="https://www.ptb.de/si/v2.2.1/qudt/quantitykind.xsd" uri="../public/schemas/ptb/d-si/2.2.1/qudt/quantitykind.xsd"/>
+  <uri name="https://www.ptb.de/dcc/d-sig/xmldsig-core-schema.xsd" uri="../public/schemas/ptb/xmldsig/xmldsig-core-schema.xsd"/>
+</catalog>

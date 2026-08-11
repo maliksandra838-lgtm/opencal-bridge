@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use OpenCal Bridge in research or interoperability work, please cite the software release."
+title: "OpenCal Bridge: Offline Excel/CSV to Digital Calibration Certificate converter"
+type: software
+authors:
+  - name: "OpenCal Bridge contributors"
+version: 0.1.0-alpha.1
+date-released: 2026-08-11
+license: MIT
+repository-code: "https://github.com/maliksandra838-lgtm/opencal-bridge"
+keywords:
+  - digital calibration certificate
+  - DCC
+  - metrology
+  - calibration
+  - XML

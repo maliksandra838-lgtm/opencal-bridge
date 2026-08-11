@@ -1,0 +1,16 @@
+OpenCal Bridge
+Copyright (c) 2026 OpenCal Bridge contributors
+
+OpenCal Bridge is an independent open-source project. It is not affiliated
+with, sponsored by, certified by, or endorsed by PTB, BIPM, DKD, or any
+accreditation body.
+
+The project redistributes unmodified schema assets published by PTB and W3C.
+Those assets retain their own copyright and license terms. See
+THIRD_PARTY_LICENSES.md, public/schemas/schema-manifest.json, and the license
+headers in each schema file.
+
+"DCC" refers to the Digital Calibration Certificate data model. Successful
+schema validation demonstrates structural validity only. It does not establish
+metrological validity, ISO/IEC 17025 conformity, accreditation status, digital
+signature validity, or fitness for issuing a calibration certificate.

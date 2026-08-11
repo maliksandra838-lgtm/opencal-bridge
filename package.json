@@ -1,0 +1,40 @@
+{
+  "name": "opencal-bridge",
+  "version": "0.1.0-alpha.1",
+  "private": true,
+  "description": "Offline bilingual CSV/XLSX to PTB DCC 3.3.0 bridge for calibration laboratories.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "generate:examples": "tsx scripts/generate-xlsx-examples.ts",
+    "generate:fixtures": "tsx scripts/generate-fixtures.ts",
+    "verify:schemas": "node scripts/verify-schema-hashes.mjs",
+    "validate:fixtures": "node scripts/validate-fixtures.mjs",
+    "check": "npm run generate:examples && npm run verify:schemas && npm run test && npm run build && npm run generate:fixtures && npm run validate:fixtures"
+  },
+  "dependencies": {
+    "exceljs": "4.4.0",
+    "papaparse": "5.5.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "xmllint-wasm": "5.3.0"
+  },
+  "devDependencies": {
+    "@types/papaparse": "5.5.2",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.4",
+    "@vitejs/plugin-react": "6.0.5",
+    "typescript": "7.0.2",
+    "tsx": "4.23.12",
+    "vite": "8.2.1",
+    "vite-plugin-singlefile": "2.3.3",
+    "vitest": "4.1.10"
+  },
+  "overrides": {
+    "uuid": "11.1.1"
+  }
+}

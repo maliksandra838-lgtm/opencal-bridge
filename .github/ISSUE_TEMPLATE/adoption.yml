@@ -1,0 +1,31 @@
+name: Adoption report
+description: Tell us how OpenCal Bridge was evaluated or used without disclosing confidential data.
+title: "[Adoption]: "
+labels: [adoption]
+body:
+  - type: dropdown
+    id: role
+    attributes:
+      label: Your context
+      options: [Calibration laboratory, National metrology institute, Instrument vendor, Research or education, Software integrator, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Workflow and outcome
+      description: What manual step changed, and what evidence can be shared publicly?
+    validations:
+      required: true
+  - type: textarea
+    id: gap
+    attributes:
+      label: Most important remaining gap
+  - type: checkboxes
+    id: permission
+    attributes:
+      label: Publication
+      options:
+        - label: This text may be quoted in project documentation with my GitHub username.
+        - label: I confirm this report contains no confidential or personal data.
+          required: true
