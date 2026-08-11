@@ -1,8 +1,12 @@
 # OpenCal Bridge
 
+[![CI](https://github.com/maliksandra838-lgtm/opencal-bridge/actions/workflows/ci.yml/badge.svg)](https://github.com/maliksandra838-lgtm/opencal-bridge/actions/workflows/ci.yml)
+[![GitHub Pages](https://github.com/maliksandra838-lgtm/opencal-bridge/actions/workflows/pages.yml/badge.svg)](https://maliksandra838-lgtm.github.io/opencal-bridge/)
+[![CodeQL](https://github.com/maliksandra838-lgtm/opencal-bridge/actions/workflows/codeql.yml/badge.svg)](https://github.com/maliksandra838-lgtm/opencal-bridge/actions/workflows/codeql.yml)
+
 **离线把 Excel/CSV 转成 PTB 数字校准证书（DCC）3.3.0。**
 
-[English](README.md) · [快速开始](docs/quick-start.zh-CN.md) · [字段字典](docs/csv-data-dictionary.md) · [验证模型](docs/validation-model.md)
+[在线使用](https://maliksandra838-lgtm.github.io/opencal-bridge/) · [English](README.md) · [快速开始](docs/quick-start.zh-CN.md) · [字段字典](docs/csv-data-dictionary.md) · [验证模型](docs/validation-model.md)
 
 > 当前为 Alpha 评估版。未经实验室技术审核、授权和受控流程，不得用它直接签发校准证书。
 

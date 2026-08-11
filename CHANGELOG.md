@@ -4,6 +4,8 @@ All notable changes will be documented here.
 
 ## [Unreleased]
 
+## [0.1.0-alpha.1] - 2026-08-11
+
 ### Added
 
 - CSV/XLSX scalar comparison import with fixed v0.1 data contract.

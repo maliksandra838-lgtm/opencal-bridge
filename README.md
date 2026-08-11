@@ -1,8 +1,13 @@
 # OpenCal Bridge
 
+[![CI](https://github.com/maliksandra838-lgtm/opencal-bridge/actions/workflows/ci.yml/badge.svg)](https://github.com/maliksandra838-lgtm/opencal-bridge/actions/workflows/ci.yml)
+[![GitHub Pages](https://github.com/maliksandra838-lgtm/opencal-bridge/actions/workflows/pages.yml/badge.svg)](https://maliksandra838-lgtm.github.io/opencal-bridge/)
+[![CodeQL](https://github.com/maliksandra838-lgtm/opencal-bridge/actions/workflows/codeql.yml/badge.svg)](https://github.com/maliksandra838-lgtm/opencal-bridge/actions/workflows/codeql.yml)
+[![License: MIT](https://img.shields.io/badge/Code-MIT-16784b.svg)](LICENSE)
+
 **Offline Excel/CSV to PTB Digital Calibration Certificate (DCC) 3.3.0.**
 
-[简体中文](README.zh-CN.md) · [Quick start](docs/quick-start.md) · [Data dictionary](docs/csv-data-dictionary.md) · [Validation model](docs/validation-model.md)
+[Launch the live app](https://maliksandra838-lgtm.github.io/opencal-bridge/) · [简体中文](README.zh-CN.md) · [Quick start](docs/quick-start.md) · [Data dictionary](docs/csv-data-dictionary.md) · [Validation model](docs/validation-model.md)
 
 > Alpha software for evaluation and interoperability testing. Do not use it to
 > issue a calibration certificate without your laboratory's technical review,
