@@ -7,7 +7,7 @@
 
 **Offline Excel/CSV to PTB Digital Calibration Certificate (DCC) 3.3.0.**
 
-[Launch the live app](https://maliksandra838-lgtm.github.io/opencal-bridge/) · [简体中文](README.zh-CN.md) · [Quick start](docs/quick-start.md) · [Data dictionary](docs/csv-data-dictionary.md) · [Validation model](docs/validation-model.md)
+[Launch the live app](https://maliksandra838-lgtm.github.io/opencal-bridge/) · [China mirror](https://gitee.com/misspop999/opencal-bridge) · [简体中文](README.zh-CN.md) · [Quick start](docs/quick-start.md) · [Data dictionary](docs/csv-data-dictionary.md) · [Validation model](docs/validation-model.md)
 
 > Alpha software for evaluation and interoperability testing. Do not use it to
 > issue a calibration certificate without your laboratory's technical review,

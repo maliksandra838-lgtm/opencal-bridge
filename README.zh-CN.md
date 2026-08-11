@@ -6,7 +6,7 @@
 
 **离线把 Excel/CSV 转成 PTB 数字校准证书（DCC）3.3.0。**
 
-[在线使用](https://maliksandra838-lgtm.github.io/opencal-bridge/) · [English](README.md) · [快速开始](docs/quick-start.zh-CN.md) · [字段字典](docs/csv-data-dictionary.md) · [验证模型](docs/validation-model.md)
+[在线使用](https://maliksandra838-lgtm.github.io/opencal-bridge/) · [GitHub 主仓库](https://github.com/maliksandra838-lgtm/opencal-bridge) · [Gitee 国内镜像](https://gitee.com/misspop999/opencal-bridge) · [English](README.md) · [快速开始](docs/quick-start.zh-CN.md) · [字段字典](docs/csv-data-dictionary.md) · [验证模型](docs/validation-model.md)
 
 > 当前为 Alpha 评估版。未经实验室技术审核、授权和受控流程，不得用它直接签发校准证书。
 
