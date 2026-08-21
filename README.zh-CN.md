@@ -74,4 +74,4 @@ npm run check
 
 项目自有代码采用 MIT。PTB DCC 3.3.0、D-SI 2.2.1 Schema 保留 LGPL-3.0-only；XMLDSig 保留 W3C 条款。项目与 PTB、BIPM、DKD 或任何认可机构均无隶属或背书关系。
 
-测试真实业务前，请先读 [隐私说明](docs/privacy.md) 和 [安全策略](SECURITY.md)。公开 Issue 严禁上传真实客户证书或实验室表格；请按 [贡献指南](CONTRIBUTING.md) 制作合成复现。
+测试真实业务前，请先读 [隐私说明](docs/privacy.md) 和 [安全策略](SECURITY.md)。公开 Issue 严禁上传真实客户证书或实验室表格；请按 [贡献指南](CONTRIBUTING.md) 制作合成复现。当前工具级证据见 [alpha.1 兼容性矩阵](docs/compatibility-matrix-alpha.1.md)。

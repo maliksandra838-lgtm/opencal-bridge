@@ -142,8 +142,9 @@ customer spreadsheets to a public Issue; use the synthetic reproduction
 template instead.
 
 Start with [CONTRIBUTING.md](CONTRIBUTING.md), then open a bug, compatibility,
-feature, or adoption report. Maintainer responsibilities are described in
-[GOVERNANCE.md](GOVERNANCE.md).
+feature, or adoption report. The current tool-level evidence is recorded in
+[the alpha.1 compatibility matrix](docs/compatibility-matrix-alpha.1.md).
+Maintainer responsibilities are described in [GOVERNANCE.md](GOVERNANCE.md).
 
 ## Sources
 

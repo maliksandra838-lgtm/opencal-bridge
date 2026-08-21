@@ -10,7 +10,7 @@ Roadmap items are hypotheses until validated by real, privacy-safe user reports.
 - [x] in-browser DCC 3.3.0 XSD validation
 - [x] native `xmllint` release cross-check
 - [x] English/Chinese UI and audit report
-- [ ] public Pages deployment and first signed release
+- [x] public Pages deployment and first reproducible prerelease (`v0.1.0-alpha.1`)
 
 ## v0.2 — reusable mappings
 
@@ -25,7 +25,7 @@ Roadmap items are hypotheses until validated by real, privacy-safe user reports.
 - [ ] repeated-series observations
 - [ ] spatial/temporal temperature-field profile
 - [ ] explicit uncertainty-budget representation
-- [ ] cross-tool interoperability pack and published compatibility matrix
+- [x] cross-tool interoperability pack and published compatibility matrix (tool-level evidence; independent laboratory trials remain open)
 
 ## Maturity gates
 
