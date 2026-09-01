@@ -26,14 +26,14 @@
   "devDependencies": {
     "@types/papaparse": "5.5.2",
     "@types/react": "19.2.18",
-    "@types/react-dom": "19.2.4",
-    "@vitejs/plugin-react": "6.0.5",
+    "@types/react-dom": "19.2.5",
+    "@vitejs/plugin-react": "6.1.1",
     "jszip": "3.10.1",
     "typescript": "7.0.2",
     "tsx": "4.23.12",
-    "vite": "8.2.1",
+    "vite": "8.2.2",
     "vite-plugin-singlefile": "2.3.3",
-    "vitest": "4.1.10"
+    "vitest": "4.1.11"
   },
   "overrides": {
     "uuid": "11.1.1"
