@@ -33,7 +33,7 @@
     "tsx": "4.23.12",
     "vite": "8.2.1",
     "vite-plugin-singlefile": "2.3.3",
-    "vitest": "4.1.10"
+    "vitest": "5.0.0"
   },
   "overrides": {
     "uuid": "11.1.1"
